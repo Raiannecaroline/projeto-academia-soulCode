@@ -1,0 +1,73 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+.container-main {
+
+    display: grid;
+    min-width: 100vw;
+    min-height: 100vh;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas:
+        'n n '
+        'c s'
+        's f'
+        'footer footer '
+        'n n'
+    ;
+
+}
+
+/* header {
+    /* aqui ficam os links NAV */
+
+
+.carrossel{
+
+    margin: 0;
+    grid-area: c;
+    background-color: blue;
+    border: 1px solid black;
+
+}
+
+.sobre {
+    margin: 0;
+    grid-area: s;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.foto {
+    
+    margin: 0;
+    grid-area: f;
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+
+
+
+footer {
+
+    margin: 0;
+    grid-area: footer;
+    background-color: green;
+    border: 2px solid black;
+
+}
+
+
+nav {
+
+    margin: 0;
+    grid-area: n;
+    background-color: pink;
+    border: 2px solid black;
+
+}

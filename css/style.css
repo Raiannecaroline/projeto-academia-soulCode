@@ -282,64 +282,97 @@ button {
 
 /* INFORMAÇÕES DA PÁGINA 3 */
 
-.containerp3 {
+.container-pg3{
 
-    border: 0.5px solid black;
     display: grid;
-    height: 1100px;
-    ;
-    width: 1100px;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    row-gap: 20px;
+        margin: 2%;
+        min-height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 60px 500px 450px 250px 60px;
+        grid-template-areas:
+            'topo-pg3 topo-pg3'
+            'parte1-pg3 parte1-pg3'
+            'parte2-pg3 parte3-pg3'
+            'parte4-pg3 parte4-pg3'
+            'parte5-pg3 parte5-pg3 '
+        ;
 
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
+    }
 
-        'h h'
-        'm for'
-        'fo fo'
-    ;
+    .topo-pg3{
+        display: flex;
+        background-color: hsl(218, 22%, 90%);
+        grid-area: topo-pg3;
+        font-size: 25px;
+        justify-content:space-around;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+
+    .parte1-pg3{
+        border: 2px solid black;
+        grid-area: parte1-pg3;
+
+    }
+
+    .pg3{
+        width: 100%;
+        height: 100%;
+        /*opacity: 1 ;*/
+    }
+
+    .parte2-pg3{
+        grid-area: parte2-pg3;
+        border: 2px solid black;
+
+    }
+
+    .parte3-pg3{
+        border: 2px solid black;
+        grid-area: parte3-pg3;
+        padding-left: 200px;
+        padding-top: 50px;
+        font-size: 20px;
+        
+    }
+
+    .parte4-pg3{
+        display: flex;
+       border: 2px solid black;
+        grid-area: parte4-pg3;
+        font-size: 25px;
+        justify-content:space-around;
+        align-items: center;
+
+    }
+
+    .parte5-pg3{
+        display: flex;
+        border: 2px solid black;
+        grid-area: parte5-pg3;
+        /*text-align: center;*/
+        font-size: 25px;
+        justify-content:space-around;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+
+.mapouter{
+
+    width: 100%;
+    height: 90%;
+    
 }
 
-.cabecalho-menu {
-    position: fixed;
-}
-
-/* header{
- 
-    width: 1100px;
-    grid-area:h;
-    border: 0.5px solid black;
-    background-color: red;
-} */
-
-.mapouter {
-
-    grid-area: m;
-
-    width: 300px;
-    height: 200px;
-
-}
-
-.form {
-
+.form{
+     
     width: 500px;
-    height: 400px;
-
-    grid-area: for;
+    height: 400px; 
+    
 }
 
-.footerp3 {
-
-    width: 600px;
-    height: 140px;
-
-    grid-area: fo;
-}
 
 
 input[type=submit] {
@@ -350,18 +383,17 @@ input[type=submit] {
     height: 30px;
     font-size: medium;
     border-radius: 10px;
-
+  
 }
-
 input[type=text] {
-
+  
     color: white;
     width: 150px;
     height: 30px;
     font-size: medium;
     border-radius: 10px;
-    text-align: top;
-
+    text-align: center;
+  
 }
 
 @media (max-width: 1000px) and (min-width: 600px) {

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!--RESET CSS-->
     <link rel="stylesheet" href="css/reset.css">
     <!--STYLE CSS-->
@@ -29,39 +31,48 @@
             </div>
 
             <section class="topo-pg3">
-    
+
                 <button disabled class="logo">SoulGym</button>
                 <a href="index.html">Home</a>
                 <a href="pagina2.html">Planos</a>
                 <a href="pagina3.html">Localização</a>
-                
+
             </section>
         </header>
-        
+
 
         <!--MAPA EM JAVASCRIPT COM API DO GOOGLE-->
-        <div class="parte2-pg3" id="google-maps"></div> 
-                
+        <div class="parte2-pg3" id="google-maps"></div>
+
         <!--FORMULÁRIO-->
         <section class="parte3-pg3">
 
-            <p> Alguma dúvida ? Envie para nossa central de atendimento 24h/dia</p><br><br>
 
-                <form action="">
-    
-                    <input type="text" required placeholder="Nome" style="height: 30px; width: 350px;"> <br>
-                    <input type="text" required placeholder="Digite a sua mensagem" style="height: 200px; width: 350px; "> <br>
-                    <input type="submit" value="SEND">
-    
-                </form>
-            
+
+            <form class='form' id='form'>
+                <p>Precisando de ajuda? em via sua menssagem atendemos 24 horas po dia</p>
+                <div class='form-control '>
+                    <input type='text' placeholder='name' id="username">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>Digite seu nome completo</small>
+                </div>
+                <div class='form-control'>
+                    <input type='text' placeholder='Menssagem' id="menssagem">
+                    <i class=" fa-solid fa-circle-check"></i>
+                    <i class=" fa-solid fa-circle-exclamation"></i>
+                    <small>Digite seu  sua menssagem</small>
+                </div>
+                <input type=submit>gyn</input>
+            </form>
+
         </section>
         <!--DADOS DE CONTATO-->
         <section class="parte4-pg3">
 
             <p> <b> Contato: 8 495 646-56-45 </b></p>
             <p>E-mail: serviço@SoulGym.com</p>
-            
+
         </section>
         <!--FOOTER-->
         <footer class="parte5-pg3">
@@ -69,15 +80,21 @@
             <a href="index.html">Home</a>
             <a href="pagina2.html">Planos</a>
             <a href="pagina3.html">Localização</a>
-            
+
         </footer>
 
     </div>
+
+    <!--SCRIPT Formulario-->
+    <script src='js/form.js'></script>
+
     <!--SCRIPT CARROUSEL-->
-    <script src="js/slider.js"></script>
+    <script src=" js/slider.js "></script>
     <!--SCRIPT MAPA-->
-    <script src="js/mapa.js"></script>
+    <script src="js/mapa.js "></script>
     <!--SCRIPT MAPA-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap "></script>
+
 </body>
+
 </html>

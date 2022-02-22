@@ -238,7 +238,7 @@ h2 {
     color: rgb(255, 81, 0);
 }
 
-.botaoAd {
+/* .botaoAd {
     border: 1px solid rgb(255, 81, 0);
     background-color: rgb(255, 81, 0);
     color: white;
@@ -247,7 +247,7 @@ h2 {
     font-size: medium;
     border-radius: 5px;
     transition: 0.8s;
-}
+} */
 
 button {
     border: 1px solid rgb(255, 81, 0);
@@ -547,7 +547,7 @@ input[type='submit'] {
         /* margin: 2%; */
         min-height: 200vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 0px 350px 100px 291px 291px 301px 225px 230px 210px;
+        grid-template-rows: 0px 350px 100px 291px 291px 301px 255px 255px 210px;
         grid-template-areas: 'topo' 'parte1' 'p' 's1' 's2' 's3' 'd1' 'd2' 'd3' 'contato' 'footerp2';
     }
     .parte1 {
@@ -613,7 +613,7 @@ input[type='submit'] {
         margin-right: 5%;
         padding: 20px;
         width: 90%;
-        height: 215px;
+        height: 245px;
         /* grid-area: d1; */
     }
     .texto {
@@ -638,7 +638,7 @@ input[type='submit'] {
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
-        height: 220px;
+        height: 245px;
     }
     .d3 {
         display: flex;
@@ -658,7 +658,7 @@ input[type='submit'] {
         background-color: rgb(255, 81, 0);
         color: white;
         width: 200px;
-        height: 20px;
+        height: 50px;
         font-size: medium;
         border-radius: 5px;
         transition: 0.8s;

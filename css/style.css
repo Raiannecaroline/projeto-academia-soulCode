@@ -89,6 +89,14 @@ a {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.p-parte4{
+    font-weight: bold;
+}
+
+.email-parte4{
+    text-decoration: underline;
+}
+
 
 /*PÁGINA 01 E 02*/
 
@@ -136,13 +144,16 @@ img {
 
 h2 {
     font-size: 250%;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .planos {
     margin: 0;
     grid-area: p;
     text-align: center;
-    height: 490px;
+    height: 510px;
     background-color: rgba(128, 128, 128, 0.151);
 }
 
@@ -185,6 +196,7 @@ h2 {
     width: 300px;
     height: 240px;
     grid-area: d1;
+    box-shadow: 0 5px 5px grey;
 }
 
 .d2 {
@@ -198,6 +210,7 @@ h2 {
     width: 300px;
     height: 240px;
     grid-area: d2;
+    box-shadow: 0 5px 5px grey;
 }
 
 .d3 {
@@ -211,6 +224,7 @@ h2 {
     width: 300px;
     height: 240px;
     grid-area: d3;
+    box-shadow: 0 5px 5px grey;
 }
 
 .texto.flex {
@@ -549,7 +563,7 @@ input[type='submit'] {
         flex-direction: column;
         text-align: center;
         width: 100%;
-        height: 360px;
+        height: 510px;
         background-color: rgba(128, 128, 128, 0.151);
     }
     .flex {

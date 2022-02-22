@@ -2,6 +2,14 @@
   const username = document.getElementById('username');
   const menssagem = document.getElementById('menssagem');
 
+
+  form.addEventListener('submit', (event) => {
+      event.preventDefault()
+      event.stopPropagation()
+
+  })
+
+
   form.addEventListener('submit', (e) => {
       e.preventDefault()
 

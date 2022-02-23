@@ -1,5 +1,7 @@
 # Academia SoulCode
 
+![SoulCode](https://github.com/Raiannecaroline/projeto-academia-soulCode/blob/main/img/SoulCode.jpeg)
+
 ## Equipe do projeto: :bowtie:
 - Allan Douglas :satisfied:
 - Bruna Ucceli :grin:
@@ -36,6 +38,9 @@
 - Google Meet
 - Discord
 - WhatsApp
+- Figma
+
+![Tech](https://github.com/Raiannecaroline/projeto-academia-soulCode/blob/main/img/Tecnologias.jpeg)
 
 ## Linguagens e frameworks :loop:
 - HTML (Linguagem de Marcação)
@@ -55,10 +60,13 @@
 
 ## Resposividade :open_mouth:
 
+### Página Home
 ![Página Home](https://github.com/Raiannecaroline/projeto-academia-soulCode/blob/main/img/P%C3%A1gina%20home.jpeg)
 
+## Página 02
 ![Página 2](https://github.com/Raiannecaroline/projeto-academia-soulCode/blob/main/img/P%C3%A1gina%202.jpeg)
 
+## Página 03
 ![Página 3](https://github.com/Raiannecaroline/projeto-academia-soulCode/blob/main/img/P%C3%A1gina%2003.jpeg)
 
 ### Obrigada :sparkling_heart:

@@ -333,6 +333,7 @@ button:focus {
 .parte2-pg3 {
     grid-area: parte2-pg3;
     border: 2px solid black;
+    border: none;
 }
 
 .parte3-pg3 {
